@@ -30,7 +30,7 @@ Before installing PrivStatBool and TFHE, ensure your system meets the following 
    ```shell
   cd tfhe
   mkdir build && cd build
-  ccmake ..
+  ccmake ../src
 
 4. **Set Environment Variables:**
 - Add the following to ~/.bashrc (adjust TFHE_PREFIX if necessary):
@@ -55,6 +55,7 @@ Before installing PrivStatBool and TFHE, ensure your system meets the following 
    ```shell
    cd PrivStatBool
    mkdir build && cd build
+   cmake ..
    make
 
 ### Running Demos and Tests
